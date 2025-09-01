@@ -51,7 +51,7 @@ void setup() {
   attachInterrupt(digitalPinToInterrupt(LIMIT_BAWAH), isrLimitBawah, FALLING);
 
   // Homing di awal
-  homing();
+  //homing();
 }
 
 void loop() {
